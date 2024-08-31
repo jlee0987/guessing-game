@@ -10,4 +10,4 @@ This Java program generates a random number between 0-100 and allows a user to g
 ➝ If diff ≥ 50 - guess is too high/low<br/>
 ➝ If 30 ≤ diff <50 - guess is high/low<br/>
 ➝ If 15 ≤ diff < 30 - guess is moderately high/low<br/>
-➝ If 0 < diff <15 - guess is somewhat high/low<br/>
+➝ If 0 < diff < 15 - guess is somewhat high/low<br/>
