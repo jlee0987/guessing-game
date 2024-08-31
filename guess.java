@@ -22,7 +22,7 @@ public class guess {
 		}
 		
 		//ask the user for input 
-		strGuess = JOptionPane.showInputDialog("\nGuess a Number between 1 and 100: ");
+		strGuess = JOptionPane.showInputDialog("\nGuess a number between 1 and 100: ");
 		guess = Integer.parseInt(strGuess); System.out.println();
 		
 		//calculation
@@ -30,7 +30,7 @@ public class guess {
 		
 		//if diff is 0 then the user guessed the correct number 
 		if (diff == 0) {
-		JOptionPane.showMessageDialog(null,"You guessed the correct number! -- You won");
+		JOptionPane.showMessageDialog(null,"You guessed the correct number! - Congratulations, you won");
 		done = true;
 		System.exit(0);
 		} //end of true
